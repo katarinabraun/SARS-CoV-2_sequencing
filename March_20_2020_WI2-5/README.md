@@ -7,7 +7,7 @@
 ---------------------
 ## Data availability
 
-We have made our cleaned FASTQ* files available at the following SRA: [PRJNA614504](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA614504)
+We have made our cleaned FASTQ* files available at the following SRA: [PRJNA614504](https://www.ncbi.nlm.nih.gov/bioproject/PRJNA614504)  
 To explore our data on nextstrain further - go to [Nextstrain](https://nextstrain.org/ncov?s=USA/WI-02/2020)
 
 **Note these FASTQs have been depleted of host sequences and other contaminating sequences.

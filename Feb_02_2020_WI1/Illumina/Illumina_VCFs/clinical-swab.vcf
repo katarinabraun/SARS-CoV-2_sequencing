@@ -1,0 +1,42 @@
+##fileformat=VCFv4.1
+##FILTER=<ID=PASS,Description="All filters passed">
+##source=VarScan2
+##INFO=<ID=ADP,Number=1,Type=Integer,Description="Average per-sample depth of bases with Phred score >= 30">
+##INFO=<ID=WT,Number=1,Type=Integer,Description="Number of samples called reference (wild-type)">
+##INFO=<ID=HET,Number=1,Type=Integer,Description="Number of samples called heterozygous-variant">
+##INFO=<ID=HOM,Number=1,Type=Integer,Description="Number of samples called homozygous-variant">
+##INFO=<ID=NC,Number=1,Type=Integer,Description="Number of samples not called">
+##FILTER=<ID=str10,Description="Less than 10% or more than 90% of variant supporting reads on one strand">
+##FILTER=<ID=indelError,Description="Likely artifact due to indel reads at this position">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Integer,Description="Genotype Quality">
+##FORMAT=<ID=SDP,Number=1,Type=Integer,Description="Raw Read Depth as reported by SAMtools">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Quality Read Depth of bases with Phred score >= 30">
+##FORMAT=<ID=RD,Number=1,Type=Integer,Description="Depth of reference-supporting bases (reads1)">
+##FORMAT=<ID=AD,Number=1,Type=Integer,Description="Depth of variant-supporting bases (reads2)">
+##FORMAT=<ID=FREQ,Number=1,Type=String,Description="Variant allele frequency">
+##FORMAT=<ID=PVAL,Number=1,Type=String,Description="P-value from Fisher's Exact Test">
+##FORMAT=<ID=RBQ,Number=1,Type=Integer,Description="Average quality of reference-supporting bases (qual1)">
+##FORMAT=<ID=ABQ,Number=1,Type=Integer,Description="Average quality of variant-supporting bases (qual2)">
+##FORMAT=<ID=RDF,Number=1,Type=Integer,Description="Depth of reference-supporting bases on forward strand (reads1plus)">
+##FORMAT=<ID=RDR,Number=1,Type=Integer,Description="Depth of reference-supporting bases on reverse strand (reads1minus)">
+##FORMAT=<ID=ADF,Number=1,Type=Integer,Description="Depth of variant-supporting bases on forward strand (reads2plus)">
+##FORMAT=<ID=ADR,Number=1,Type=Integer,Description="Depth of variant-supporting bases on reverse strand (reads2minus)">
+##bcftools_normVersion=1.9+htslib-1.9
+##bcftools_normCommand=norm -c sw -m - -f /ref/swab.fasta -o swab.vcf swab_temp.vcf; Date=Tue Feb 18 21:51:53 2020
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	swab
+SARS_CoV_2_ORF1a	971	.	A	G	.	PASS	ADP=208;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:24:209:208:200:8:3.85%:3.6475E-3:57:60:147:53:7:1
+SARS_CoV_2_ORF1a	2656	.	G	T	.	PASS	ADP=328;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:30:331:328:314:10:3.09%:9.101E-4:57:58:237:77:9:1
+SARS_CoV_2_ORF1a	2921	.	A	G	.	PASS	ADP=787;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:30:789:787:776:10:1.27%:9.4884E-4:62:73:622:154:10:0
+SARS_CoV_2_ORF1a	3353	.	T	C	.	PASS	ADP=241;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:24:241:241:233:8:3.32%:3.6824E-3:59:55:169:64:4:4
+SARS_CoV_2_ORF1a	6762	.	G	T	.	PASS	ADP=102;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:21:102:102:95:7:6.86%:7.0243E-3:65:65:79:16:6:1
+SARS_CoV_2_ORF1a	8089	.	C	G	.	PASS	ADP=118;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:47:118:118:103:15:12.71%:1.899E-5:55:60:77:26:11:4
+SARS_CoV_2_ORF1a	8657	.	C	T	.	PASS	ADP=229;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:21:230:229:222:7:3.06%:7.4574E-3:62:61:166:56:5:2
+SARS_CoV_2_ORF1a	11070	.	G	T	.	PASS	ADP=280;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:181:280:280:224:56:20%:6.5154E-19:62:65:159:65:45:11
+SARS_CoV_2_ORF1a	11984	.	C	G	.	PASS	ADP=494;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:21:495:494:483:7:1.42%:7.6458E-3:59:43:330:153:4:3
+SARS_CoV_2_ORF1b	1686	.	T	G	.	PASS	ADP=350;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:33:365:350:338:11:3.14%:4.5074E-4:50:48:201:137:5:6
+SARS_CoV_2_ORF1b	1690	.	C	T	.	PASS	ADP=348;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:30:349:348:337:10:2.87%:9.1442E-4:44:49:129:208:5:5
+SARS_CoV_2_ORF1b	2810	.	G	A	.	PASS	ADP=132;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:24:132:132:124:8:6.06%:3.5022E-3:60:48:93:31:8:0
+SARS_CoV_2_ORF1b	2813	.	C	A	.	PASS	ADP=132;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:24:132:132:124:8:6.06%:3.5022E-3:60:48:93:31:8:0
+SARS_CoV_2_ORF1b	7183	.	G	T	.	PASS	ADP=154;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:46:154:154:139:15:9.74%:2.1336E-5:60:71:126:13:14:1
+SARS_CoV_2_N	486	.	T	C	.	PASS	ADP=343;WT=0;HET=1;HOM=0;NC=0	GT:GQ:SDP:DP:RD:AD:FREQ:PVAL:RBQ:ABQ:RDF:RDR:ADF:ADR	0/1:21:345:343:335:7:2.04%:7.5741E-3:57:59:268:67:5:2

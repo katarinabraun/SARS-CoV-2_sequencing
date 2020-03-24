@@ -55,7 +55,7 @@ Here we show the results for each sequencing approach. The ARTIC protocol genera
 | Swab C | 409,747           | 408,420             | 518,336           | 1,082               |
 | Swab D | 478,058           | 475,250             | 648,403           | 1,909               |
 
-![Coverage](ArticvsSISPA_Coverage.png)
+![Coverage](figures/ArticvsSISPA_Coverage.png)
 
 ---------------------
 ### Consensus level differences between swabs and comparing ARTIC to SISPA
@@ -71,14 +71,14 @@ Swab C differed from the Madison reference sequence at 8 positions (7 within ope
 Swab D differed from the Madison reference sequence at 9 positions (8 within open reading frames). Swab D also does not contain the defining 3bp in-frame deletion in ORF1b that the Madison reference contains. Swab D consensus contains the likely-artifact at deletion at 11,082 (ORF1a). Swab D SISPA and ARTIC consensus sequences differ at nucleotide position 15,760. Swabs C and D are nearly identical at the consensus level so are like part of the same transmission chain within Madison, WI. 
 
 Here’s a table outlining consensus-level SNV differences among swabs as well as ARTIC vs SISPA library preparation methods.
-![Here’s a table outlining consensus-level SNV differences among swabs as well as ARTIC vs SISPA library preparation methods.](consensus_SNV_differences.png)
+![Here’s a table outlining consensus-level SNV differences among swabs as well as ARTIC vs SISPA library preparation methods.](figures/consensus_SNV_differences.png)
 
 We also took a quick look at the impact of each of these SNVs and have included these annotations in this table.
 
 *Syn*: synonymous variant, silent mutation
 *Nonsyn*: nonsynonymous variant, amino-acid changing mutation 
 
-![We also took a quick look at the impact of each of these SNVs and have included these annotations in this table.](SNV_annotations.png)
+![We also took a quick look at the impact of each of these SNVs and have included these annotations in this table.](figures/SNV_annotations.png)
 
 Swab A contains 3 synonymous variants and 3-5 nonsynonymous variants.  
 Swab B contains 3 synonymous variants and 5 nonsynonymous variants. 
@@ -101,9 +101,9 @@ Consensus sequences were uploaded to GISAID and subsequently added to Nextstrain
 | D (+/-) | 416492         | [USA/WI-05/2020](https://nextstrain.org/ncov?s=USA/WI-05/2020)   |
 
 Based on Nextstrain phylogenetic analysis, it looks like there have been at least three separate introductions of SARS-CoV-2 into Wisconsin. The first of which - USA/WI-02/2020 - clusters with other European sequences and is distinct from USA/WI-01/2020 that originated in China. 
-![WI-02](WI-2.png) 
+![WI-02](figures/WI-2.png) 
 
 The other three samples (USA/WI-03 through WI-06/2020) all cluster together also originating from European sequences. This suggests that a local transmission cycle originated from USA/WI-03/2020 SARS-CoV-2 virus. Future sequencing efforts will need to determine if there is sustained transmission of these viruses within Madison, WI.  
-![WI-3-5](WI-3-5.png)
+![WI-3-5](figures/WI-3-5.png)
 
 ---------------------

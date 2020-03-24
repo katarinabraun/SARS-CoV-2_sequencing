@@ -95,10 +95,10 @@ Consensus sequences were uploaded to GISAID and subsequently added to Nextstrain
 
 | Sample  | GISAID EPI ISL | Nextstrain Name |
 |---------|----------------|-----------------|
-| A (+/+) | 416489         | [USA/WI-02/2020](https://nextstrain.org/ncov?s=USA/WI-02/2020)  |
-| B (+/+) | 416523         | [USA/WI-03/2020](https://nextstrain.org/ncov?s=USA/WI-03/2020)   |
-| C (+/-) | 416491         | [USA/WI4/2020](https://nextstrain.org/ncov?s=USA/WI4/2020)     |
-| D (+/-) | 416492         | [USA/WI-05/2020](https://nextstrain.org/ncov?s=USA/WI-05/2020)   |
+| Swab A | 416489         | [USA/WI-02/2020](https://nextstrain.org/ncov?s=USA/WI-02/2020)  |
+| Swab B | 416523         | [USA/WI-03/2020](https://nextstrain.org/ncov?s=USA/WI-03/2020)   |
+| Swab C | 416491         | [USA/WI4/2020](https://nextstrain.org/ncov?s=USA/WI4/2020)     |
+| Swab D | 416492         | [USA/WI-05/2020](https://nextstrain.org/ncov?s=USA/WI-05/2020)   |
 
 Based on Nextstrain phylogenetic analysis, it looks like there have been at least three separate introductions of SARS-CoV-2 into Wisconsin. The first of which - USA/WI-02/2020 - clusters with other European sequences and is distinct from USA/WI-01/2020 that originated in China. 
 ![WI-02](figures/WI-2.png) 

@@ -2,7 +2,7 @@
 
 At the University of Wisconsin-Madison, the AIDS Vaccine Research Laboratories have been working together to sequence positive SARS-CoV-2 nasal swab samples from patients that present to the University of Wisconsin Hopsital and Clinic system.
 
-Primary investigators leading these efforts are Drs. Tom Friedrich, Dave O'Connor and Shelby O'Connor. Sequencing efforts, at this point, have been led by [Gage Moreno](https://twitter.com/GageKMoreno) and [myself](https://twitter.com/KATarinambraun). 
+Principal investigators leading these efforts are Drs. Tom Friedrich, Dave O'Connor and Shelby O'Connor. Sequencing efforts, at this point, have been led by [Gage Moreno](https://twitter.com/GageKMoreno) and [myself](https://twitter.com/KATarinambraun). 
 
 We are aiming to sequence as many samples as possible and will write up brief analysis reports as frequently as possible. We will submit consensus sequences to GISAID (which will be fed into [Nextstrain phylogenies](https://nextstrain.org/ncov)) and we will additionally submit cleaned fastq datasets (human reads removed) to SRA to facilitate open datasharing. 
 

@@ -9,3 +9,5 @@ We are aiming to sequence as many samples as possible and will write up brief an
 We are additionally tracking these reports on our [LabKey portal](https://openresearch.labkey.com/wiki/ZEST/Ncov/page.view?name=sars-cov-2-sequencing). 
 
 We are sequencing via a number of methods, but moving forward will primarily sequence on an ONT Nanopore GridION and will use the [ARTIC sequencing protocol](https://artic.network/ncov-2019). The earlier reports will include sequencing using a non-specific, metagenomic approach called [SISPA](https://www.protocols.io/view/sequence-independent-single-primer-amplification-o-bb3miqk6). We will include some Illumina MiSeq sequencing as well. 
+
+This repository will be organized by date. I will upload the reports and consensus sequences for the collection of samples we sequenced and processed by date. 

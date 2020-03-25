@@ -1,0 +1,59 @@
+##fileformat=VCFv4.2
+##BBMapVersion=38.76
+##ploidy=1
+##rarity=0.10000
+##minallelefraction=0.10000
+##reads=569596
+##pairedReads=0
+##properlyPairedReads=0
+##readLengthAvg=313.182
+##properPairRate=0.00000
+##totalQualityAvg=22.786
+##mapqAvg=59.772
+##reference=MN908947.3.fasta
+##contig=<ID=MN908947.3,length=29903>
+##FILTER=<ID=FAIL,Description="Fail">
+##FILTER=<ID=PASS,Description="Pass">
+##INFO=<ID=SN,Number=1,Type=Integer,Description="Scaffold Number">
+##INFO=<ID=STA,Number=1,Type=Integer,Description="Start">
+##INFO=<ID=STO,Number=1,Type=Integer,Description="Stop">
+##INFO=<ID=TYP,Number=1,Type=String,Description="Type">
+##INFO=<ID=R1P,Number=1,Type=Integer,Description="Read1 Plus Count">
+##INFO=<ID=R1M,Number=1,Type=Integer,Description="Read1 Minus Count">
+##INFO=<ID=R2P,Number=1,Type=Integer,Description="Read2 Plus Count">
+##INFO=<ID=R2M,Number=1,Type=Integer,Description="Read2 Minus Count">
+##INFO=<ID=AD,Number=1,Type=Integer,Description="Allele Depth">
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=MCOV,Number=1,Type=Integer,Description="Minus Coverage">
+##INFO=<ID=PPC,Number=1,Type=Integer,Description="Paired Count">
+##INFO=<ID=AF,Number=1,Type=Float,Description="Allele Fraction">
+##INFO=<ID=RAF,Number=1,Type=Float,Description="Revised Allele Fraction">
+##INFO=<ID=LS,Number=1,Type=Integer,Description="Length Sum">
+##INFO=<ID=MQS,Number=1,Type=Integer,Description="MAPQ Sum">
+##INFO=<ID=MQM,Number=1,Type=Integer,Description="MAPQ Max">
+##INFO=<ID=BQS,Number=1,Type=Integer,Description="Base Quality Sum">
+##INFO=<ID=BQM,Number=1,Type=Integer,Description="Base Quality Max">
+##INFO=<ID=EDS,Number=1,Type=Integer,Description="End Distance Sum">
+##INFO=<ID=EDM,Number=1,Type=Integer,Description="End Distance Max">
+##INFO=<ID=IDS,Number=1,Type=Integer,Description="Identity Sum">
+##INFO=<ID=IDM,Number=1,Type=Integer,Description="Identity Max">
+##INFO=<ID=CED,Number=1,Type=Integer,Description="Contig End Distance">
+##INFO=<ID=HMP,Number=1,Type=Integer,Description="Homopolymer Count">
+##INFO=<ID=SB,Number=1,Type=Float,Description="Strand Bias">
+##INFO=<ID=DP4,Number=4,Type=Integer,Description="Ref+, Ref-, Alt+, Alt-">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=AD,Number=1,Type=Integer,Description="Allele Depth">
+##FORMAT=<ID=AF,Number=1,Type=Float,Description="Allele Fraction">
+##FORMAT=<ID=RAF,Number=1,Type=Float,Description="Revised Allele Fraction">
+##FORMAT=<ID=SB,Number=1,Type=Float,Description="Strand Bias">
+##FORMAT=<ID=SC,Number=1,Type=Float,Description="Score">
+##FORMAT=<ID=PF,Number=1,Type=String,Description="Pass Filter">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	barcode03.primary
+MN908947.3	30	.	A	T	31.57	PASS	SN=0;STA=29;STO=30;TYP=SUB;R1P=1;R1M=4;R2P=0;R2M=0;AD=5;DP=11;MCOV=-1;PPC=0;AF=0.4545;RAF=0.4545;LS=1755;MQS=300;MQM=60;BQS=126;BQM=35;EDS=825;EDM=186;IDS=4731;IDM=968;CED=29;HMP=0;SB=0.9985	GT:DP:AD:AF:RAF:SB:SC:PF	1:11:5:0.4545:0.4545:0.9985:31.57:PASS
+MN908947.3	241	.	C	T	39.91	PASS	SN=0;STA=240;STO=241;TYP=SUB;R1P=3623;R1M=4176;R2P=0;R2M=0;AD=7799;DP=9385;MCOV=-1;PPC=0;AF=0.8310;RAF=0.8310;LS=2383392;MQS=466548;MQM=60;BQS=191167;BQM=41;EDS=1065651;EDM=372;IDS=7380723;IDM=996;CED=240;HMP=3;SB=0.9997	GT:DP:AD:AF:RAF:SB:SC:PF	1:9385:7799:0.8310:0.8310:0.9997:39.91:PASS
+MN908947.3	3037	.	C	T	37.19	PASS	SN=0;STA=3036;STO=3037;TYP=SUB;R1P=1169;R1M=1122;R2P=0;R2M=0;AD=2291;DP=3463;MCOV=-1;PPC=0;AF=0.6616;RAF=0.6616;LS=699844;MQS=136937;MQM=60;BQS=65114;BQM=41;EDS=315566;EDM=646;IDS=2177296;IDM=996;CED=601;HMP=5;SB=0.9999	GT:DP:AD:AF:RAF:SB:SC:PF	1:3463:2291:0.6616:0.6616:0.9999:37.19:PASS
+MN908947.3	3871	.	G	T	44.60	PASS	SN=0;STA=3870;STO=3871;TYP=SUB;R1P=2150;R1M=2278;R2P=0;R2M=0;AD=4428;DP=4662;MCOV=-1;PPC=0;AF=0.9498;RAF=0.9498;LS=1399671;MQS=264529;MQM=60;BQS=105693;BQM=39;EDS=325310;EDM=358;IDS=4211354;IDM=993;CED=601;HMP=0;SB=0.9999	GT:DP:AD:AF:RAF:SB:SC:PF	1:4662:4428:0.9498:0.9498:0.9999:44.60:PASS
+MN908947.3	14408	.	C	T	39.17	PASS	SN=0;STA=14407;STO=14408;TYP=SUB;R1P=3095;R1M=2714;R2P=0;R2M=0;AD=5809;DP=6899;MCOV=-1;PPC=0;AF=0.8420;RAF=0.8420;LS=1871688;MQS=347937;MQM=60;BQS=111429;BQM=41;EDS=936429;EDM=389;IDS=5533593;IDM=993;CED=601;HMP=1;SB=0.9998	GT:DP:AD:AF:RAF:SB:SC:PF	1:6899:5809:0.8420:0.8420:0.9998:39.17:PASS
+MN908947.3	23403	.	A	G	41.30	PASS	SN=0;STA=23402;STO=23403;TYP=SUB;R1P=3505;R1M=3454;R2P=0;R2M=0;AD=6959;DP=8209;MCOV=-1;PPC=0;AF=0.8477;RAF=0.8477;LS=2288440;MQS=417280;MQM=60;BQS=182273;BQM=41;EDS=628661;EDM=461;IDS=6640452;IDM=996;CED=601;HMP=2;SB=1.0000	GT:DP:AD:AF:RAF:SB:SC:PF	1:8209:6959:0.8477:0.8477:1.0000:41.30:PASS
+MN908947.3	29614	.	C	T	40.05	PASS	SN=0;STA=29613;STO=29614;TYP=SUB;R1P=1898;R1M=2130;R2P=0;R2M=0;AD=4028;DP=4770;MCOV=-1;PPC=0;AF=0.8444;RAF=0.8444;LS=1318801;MQS=240950;MQM=60;BQS=79530;BQM=37;EDS=252447;EDM=513;IDS=3823209;IDM=996;CED=289;HMP=0;SB=0.9998	GT:DP:AD:AF:RAF:SB:SC:PF	1:4770:4028:0.8444:0.8444:0.9998:40.05:PASS

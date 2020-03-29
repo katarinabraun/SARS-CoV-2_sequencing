@@ -1,0 +1,17 @@
+##fileformat=VCFv4.1
+##contig=<ID=MN908947.3>
+##INFO=<ID=ref_prob,Number=1,Type=Float,Description="Medaka probability for reference allele">
+##INFO=<ID=primary_prob,Number=1,Type=Float,Description="Medaka probability of primary call">
+##INFO=<ID=primary_call,Number=1,Type=String,Description="Medaka primary call">
+##INFO=<ID=secondary_prob,Number=1,Type=Float,Description="Medaka probability of secondary call">
+##INFO=<ID=secondary_call,Number=1,Type=String,Description="Medaka secondary call">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Medaka genotype">
+##FORMAT=<ID=GQ,Number=1,Type=Float,Description="Medaka genotype quality score">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+MN908947.3	241	.	C	T	70.0	PASS	primary_call=T;primary_prob=1.000;ref_prob=0.000;secondary_call=*;secondary_prob=0.000	GT:GQ	1/1:70.000
+MN908947.3	3037	.	C	T	66.227	PASS	primary_call=T;primary_prob=1.000;ref_prob=0.000;secondary_call=*;secondary_prob=0.000	GT:GQ	1/1:66.227
+MN908947.3	14408	.	C	T	69.237	PASS	primary_call=T;primary_prob=1.000;ref_prob=0.000;secondary_call=C;secondary_prob=0.000	GT:GQ	1/1:69.237
+MN908947.3	18877	.	C	T	70.0	PASS	primary_call=T;primary_prob=1.000;ref_prob=0.000;secondary_call=C;secondary_prob=0.000	GT:GQ	1/1:70.000
+MN908947.3	23403	.	A	G	70.0	PASS	primary_call=G;primary_prob=1.000;ref_prob=0.000;secondary_call=A;secondary_prob=0.000	GT:GQ	1/1:70.000
+MN908947.3	25563	.	G	T	70.0	PASS	primary_call=T;primary_prob=1.000;ref_prob=0.000;secondary_call=C;secondary_prob=0.000	GT:GQ	1/1:70.000
+MN908947.3	28871	.	G	A	66.227	PASS	primary_call=A;primary_prob=1.000;ref_prob=0.000;secondary_call=*;secondary_prob=0.000	GT:GQ	1/1:66.227

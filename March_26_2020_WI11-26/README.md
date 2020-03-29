@@ -67,7 +67,7 @@ We pulled data off of the GridION after we generated 100K reads for each sample,
 
 We mapped all swabs against the Wuhan reference sequence (MN908947.3) and identified consensus-level differences from the reference sequence and the thirteen swabs we sequenced here. We also took a quick look at the impact of each of these SNVs and have included these annotations in the second table. 
 
-![Here’s a table outlining consensus-level SNV differences among samples.](consensus_SNV_diferences.png)
+![Here’s a table outlining consensus-level SNV differences among samples.](figures/consensus_SNV_diferences.png)
 
 Overall, consensus-level SNVs are most likely to fall in ORF1ab (which occupies the majority of the genome). We have identified very few SNVs in the S gene, which encodes Spike protein expressed on the surface of the virion -- and is therefore antigenically most relevant. 
 There are two few consensus-level SNVs to make confident inferences regarding population selective pressures. We have not called minor variants at this time, but hope to do this soon. 

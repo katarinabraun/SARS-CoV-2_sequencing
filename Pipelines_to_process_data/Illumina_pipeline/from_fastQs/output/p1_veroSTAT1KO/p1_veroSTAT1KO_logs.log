@@ -1,0 +1,95 @@
+***********
+Beginning run at Mon, 06 Apr 2020 09:38:30 PM
+Beginning run at Mon, 06 Apr 2020 09:38:30 PM
+***********
+Processing samples for reference sequence p1_veroSTAT1KO
+***********
+Started quality trimming
+p1_veroSTAT1KO
+-----------
+***********
+Trimmomatic
+***********
+21:38:31	TrimmomaticPE: Started with arguments:
+21:38:31	 p1_veroSTAT1KO_R1.fastq.gz p1_veroSTAT1KO_R2.fastq.gz -baseout /output/p1_veroSTAT1KO_trimmed.fastq.gz SLIDINGWINDOW:5:30 MINLEN:100
+21:38:31	Multiple cores found: Using 2 threads
+21:38:31	Using templated Output files: /output/p1_veroSTAT1KO_trimmed_1P.fastq.gz /output/p1_veroSTAT1KO_trimmed_1U.fastq.gz /output/p1_veroSTAT1KO_trimmed_2P.fastq.gz /output/p1_veroSTAT1KO_trimmed_2U.fastq.gz
+21:38:32	Quality encoding detected as phred33
+21:40:54	Input Read Pairs: 1204877 Both Surviving: 506720 (42.06%) Forward Only Surviving: 165818 (13.76%) Reverse Only Surviving: 154686 (12.84%) Dropped: 377653 (31.34%)
+21:40:55	TrimmomaticPE: Completed successfully
+***********
+***********
+Indexing reference sequence
+***********
+Bowtie2 indexing the reference
+***********
+***********
+Beginning initial mapping
+p1_veroSTAT1KO
+-----------
+***********
+Mapping
+-----------
+***********
+***********
+Generating consensus sequence
+***********
+1st round of SNP calling
+-----------
+22:06:05	[mpileup] 1 samples in 1 input files
+22:08:50	Only variants will be reported
+22:08:50	Warning: No p-value threshold provided, so p-values will not be calculated
+22:08:50	Min coverage:	100
+22:08:50	Min reads2:	2
+22:08:50	Min var freq:	0.5
+22:08:50	Min avg qual:	30
+22:08:50	P-value thresh:	0.01
+22:08:50	Reading input from p1_veroSTAT1KO.pileup
+22:09:57	28845 bases in pileup file
+22:09:57	0 variant positions (0 SNP, 0 indel)
+22:09:57	0 were failed by the strand-filter
+22:09:57	0 variant positions reported (0 SNP, 0 indel)
+***********
+***********
+Creating individual consensus fastas
+-----------
+22:09:59	[bgzip] No such file or directory: p1_veroSTAT1KO_consensus_noambig.vcf
+***********
+***********
+Calling SNPs with Varscan
+p1_veroSTAT1KO
+-----------
+***********
+Calling SNPs
+22:10:01	[mpileup] 1 samples in 1 input files
+22:12:43	Got the following sample list: 
+22:12:43	p1_veroSTAT1KO
+22:12:43	Only SNPs will be reported
+22:12:43	Warning: No p-value threshold provided, so p-values will not be calculated
+22:12:43	Min coverage:	100
+22:12:43	Min reads2:	2
+22:12:43	Min var freq:	0.01
+22:12:43	Min avg qual:	30
+22:12:43	P-value thresh:	0.01
+22:12:43	Reading input from p1_veroSTAT1KO.mpileup
+22:14:06	28845 bases in pileup file
+22:14:06	32 variant positions (25 SNP, 7 indel)
+22:14:06	0 were failed by the strand-filter
+22:14:06	25 variant positions reported (25 SNP, 0 indel)
+22:14:06	[W::vcf_parse] Contig 'SARS_CoV_2_ORF1a' is not defined in the header. (Quick workaround: index the file with tabix.)
+22:14:06	[W::vcf_parse] Contig 'SARS_CoV_2_ORF1b' is not defined in the header. (Quick workaround: index the file with tabix.)
+22:14:06	[W::vcf_parse] Contig 'SARS_CoV_2_S' is not defined in the header. (Quick workaround: index the file with tabix.)
+22:14:06	[W::vcf_parse] Contig 'SARS_CoV_2_ORF3a' is not defined in the header. (Quick workaround: index the file with tabix.)
+22:14:06	[W::vcf_parse] Contig 'SARS_CoV_2_E' is not defined in the header. (Quick workaround: index the file with tabix.)
+22:14:06	[W::vcf_parse] Contig 'SARS_CoV_2_ORF7a' is not defined in the header. (Quick workaround: index the file with tabix.)
+22:14:06	Lines   total/split/realigned/skipped:	25/0/0/0
+22:14:06	REF/ALT total/modified/added:  	25/0/0
+['/Users/katbraun/Documents/research/kat_braun/projects/SARS-CoV-2/SARSCoV2_passage_MS/data_pipelines/Illumina_pipeline/output/p1_veroSTAT1KO/p1_veroSTAT1KO/snp_calls/p1_veroSTAT1KO.vcf']-----------
+-----------
+***********
+***********
+Annotating SNPs
+***********
+Sniffles: Finished with a total runtime of 0:35:36.300000.
+
+p1_veroSTAT1KO.bam was/were not successfully snp called during run.

@@ -1,0 +1,92 @@
+***********
+Beginning run at Mon, 06 Apr 2020 09:33:53 PM
+Beginning run at Mon, 06 Apr 2020 09:33:53 PM
+***********
+Processing samples for reference sequence primary_NP_swab
+***********
+Started quality trimming
+primary_NP_swab
+-----------
+***********
+Trimmomatic
+***********
+21:33:54	TrimmomaticPE: Started with arguments:
+21:33:54	 primary_NP_swab_R1.fastq.gz primary_NP_swab_R2.fastq.gz -baseout /output/primary_NP_swab_trimmed.fastq.gz SLIDINGWINDOW:5:30 MINLEN:100
+21:33:54	Multiple cores found: Using 2 threads
+21:33:54	Using templated Output files: /output/primary_NP_swab_trimmed_1P.fastq.gz /output/primary_NP_swab_trimmed_1U.fastq.gz /output/primary_NP_swab_trimmed_2P.fastq.gz /output/primary_NP_swab_trimmed_2U.fastq.gz
+21:33:55	Quality encoding detected as phred33
+21:35:19	Input Read Pairs: 1230304 Both Surviving: 387302 (31.48%) Forward Only Surviving: 213078 (17.32%) Reverse Only Surviving: 129941 (10.56%) Dropped: 499983 (40.64%)
+21:35:19	TrimmomaticPE: Completed successfully
+***********
+***********
+Indexing reference sequence
+***********
+Bowtie2 indexing the reference
+***********
+***********
+Beginning initial mapping
+primary_NP_swab
+-----------
+***********
+Mapping
+-----------
+***********
+***********
+Generating consensus sequence
+***********
+1st round of SNP calling
+-----------
+21:36:33	[mpileup] 1 samples in 1 input files
+21:36:35	Only variants will be reported
+21:36:35	Warning: No p-value threshold provided, so p-values will not be calculated
+21:36:35	Min coverage:	100
+21:36:35	Min reads2:	2
+21:36:35	Min var freq:	0.5
+21:36:35	Min avg qual:	30
+21:36:35	P-value thresh:	0.01
+21:36:35	Reading input from primary_NP_swab.pileup
+21:36:40	28845 bases in pileup file
+21:36:40	0 variant positions (0 SNP, 0 indel)
+21:36:40	0 were failed by the strand-filter
+21:36:40	0 variant positions reported (0 SNP, 0 indel)
+***********
+***********
+Creating individual consensus fastas
+-----------
+21:36:42	[bgzip] No such file or directory: primary_NP_swab_consensus_noambig.vcf
+***********
+***********
+Calling SNPs with Varscan
+primary_NP_swab
+-----------
+***********
+Calling SNPs
+21:36:43	[mpileup] 1 samples in 1 input files
+21:36:46	Got the following sample list: 
+21:36:46	primary_NP_swab
+21:36:46	Only SNPs will be reported
+21:36:46	Warning: No p-value threshold provided, so p-values will not be calculated
+21:36:46	Min coverage:	100
+21:36:46	Min reads2:	2
+21:36:46	Min var freq:	0.01
+21:36:46	Min avg qual:	30
+21:36:46	P-value thresh:	0.01
+21:36:46	Reading input from primary_NP_swab.mpileup
+21:36:51	28845 bases in pileup file
+21:36:51	24 variant positions (15 SNP, 9 indel)
+21:36:51	0 were failed by the strand-filter
+21:36:51	15 variant positions reported (15 SNP, 0 indel)
+21:36:52	[W::vcf_parse] Contig 'SARS_CoV_2_ORF1a' is not defined in the header. (Quick workaround: index the file with tabix.)
+21:36:52	[W::vcf_parse] Contig 'SARS_CoV_2_ORF1b' is not defined in the header. (Quick workaround: index the file with tabix.)
+21:36:52	[W::vcf_parse] Contig 'SARS_CoV_2_N' is not defined in the header. (Quick workaround: index the file with tabix.)
+21:36:52	Lines   total/split/realigned/skipped:	15/0/0/0
+21:36:52	REF/ALT total/modified/added:  	15/0/0
+['/Users/katbraun/Documents/research/kat_braun/projects/SARS-CoV-2/SARSCoV2_passage_MS/data_pipelines/Illumina_pipeline/output/primary_NP_swab/primary_NP_swab/snp_calls/primary_NP_swab.vcf']-----------
+-----------
+***********
+***********
+Annotating SNPs
+***********
+Sniffles: Finished with a total runtime of 0:02:58.510000.
+
+primary_NP_swab.bam was/were not successfully snp called during run.

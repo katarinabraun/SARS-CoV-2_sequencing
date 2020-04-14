@@ -1,0 +1,95 @@
+***********
+Beginning run at Mon, 06 Apr 2020 07:25:02 PM
+Beginning run at Mon, 06 Apr 2020 07:25:02 PM
+***********
+Processing samples for reference sequence p1_veroE6
+***********
+Started quality trimming
+p1_veroE6
+-----------
+***********
+Trimmomatic
+***********
+19:25:03	TrimmomaticPE: Started with arguments:
+19:25:03	 p1_veroE6_R1.fastq.gz p1_veroE6_R2.fastq.gz -baseout /output/p1_veroE6_trimmed.fastq.gz SLIDINGWINDOW:5:30 MINLEN:100
+19:25:03	Multiple cores found: Using 2 threads
+19:25:03	Using templated Output files: /output/p1_veroE6_trimmed_1P.fastq.gz /output/p1_veroE6_trimmed_1U.fastq.gz /output/p1_veroE6_trimmed_2P.fastq.gz /output/p1_veroE6_trimmed_2U.fastq.gz
+19:25:04	Quality encoding detected as phred33
+19:26:59	Input Read Pairs: 1137981 Both Surviving: 363723 (31.96%) Forward Only Surviving: 273052 (23.99%) Reverse Only Surviving: 83186 (7.31%) Dropped: 418020 (36.73%)
+19:26:59	TrimmomaticPE: Completed successfully
+***********
+***********
+Indexing reference sequence
+***********
+Bowtie2 indexing the reference
+***********
+***********
+Beginning initial mapping
+p1_veroE6
+-----------
+***********
+Mapping
+-----------
+***********
+***********
+Generating consensus sequence
+***********
+1st round of SNP calling
+-----------
+19:43:14	[mpileup] 1 samples in 1 input files
+19:44:32	Only variants will be reported
+19:44:32	Warning: No p-value threshold provided, so p-values will not be calculated
+19:44:32	Min coverage:	100
+19:44:32	Min reads2:	2
+19:44:32	Min var freq:	0.5
+19:44:32	Min avg qual:	30
+19:44:32	P-value thresh:	0.01
+19:44:32	Reading input from p1_veroE6.pileup
+19:45:09	28845 bases in pileup file
+19:45:09	0 variant positions (0 SNP, 0 indel)
+19:45:09	0 were failed by the strand-filter
+19:45:09	0 variant positions reported (0 SNP, 0 indel)
+***********
+***********
+Creating individual consensus fastas
+-----------
+19:45:10	[bgzip] No such file or directory: p1_veroE6_consensus_noambig.vcf
+***********
+***********
+Calling SNPs with Varscan
+p1_veroE6
+-----------
+***********
+Calling SNPs
+19:45:11	[mpileup] 1 samples in 1 input files
+19:46:22	Got the following sample list: 
+19:46:22	p1_veroE6
+19:46:22	Only SNPs will be reported
+19:46:22	Warning: No p-value threshold provided, so p-values will not be calculated
+19:46:22	Min coverage:	100
+19:46:22	Min reads2:	2
+19:46:22	Min var freq:	0.01
+19:46:22	Min avg qual:	30
+19:46:22	P-value thresh:	0.01
+19:46:22	Reading input from p1_veroE6.mpileup
+19:46:59	28845 bases in pileup file
+19:46:59	34 variant positions (22 SNP, 12 indel)
+19:46:59	4 were failed by the strand-filter
+19:46:59	18 variant positions reported (18 SNP, 0 indel)
+19:46:59	[W::vcf_parse] Contig 'SARS_CoV_2_ORF1a' is not defined in the header. (Quick workaround: index the file with tabix.)
+19:46:59	[W::vcf_parse] Contig 'SARS_CoV_2_ORF1b' is not defined in the header. (Quick workaround: index the file with tabix.)
+19:46:59	[W::vcf_parse] Contig 'SARS_CoV_2_S' is not defined in the header. (Quick workaround: index the file with tabix.)
+19:46:59	[W::vcf_parse] Contig 'SARS_CoV_2_ORF3a' is not defined in the header. (Quick workaround: index the file with tabix.)
+19:46:59	[W::vcf_parse] Contig 'SARS_CoV_2_E' is not defined in the header. (Quick workaround: index the file with tabix.)
+19:46:59	[W::vcf_parse] Contig 'SARS_CoV_2_ORF7a' is not defined in the header. (Quick workaround: index the file with tabix.)
+19:46:59	Lines   total/split/realigned/skipped:	18/0/0/0
+19:46:59	REF/ALT total/modified/added:  	18/0/0
+['/Users/katbraun/Documents/research/kat_braun/projects/SARS-CoV-2/SARSCoV2_passage_MS/data_pipelines/Illumina_pipeline/output/p1_veroE6/p1_veroE6/snp_calls/p1_veroE6.vcf']-----------
+-----------
+***********
+***********
+Annotating SNPs
+***********
+Sniffles: Finished with a total runtime of 0:21:56.650000.
+
+p1_veroE6.bam was/were not successfully snp called during run.

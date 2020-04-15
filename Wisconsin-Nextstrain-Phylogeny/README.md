@@ -1,6 +1,7 @@
 <div class="labkey-wiki">
 <div class="lk-markdown-container">
-<h1>SARS-CoV-2 Sequencing Overview</h1>
+<h1>SARS-CoV-2 Sequencing in Wisconsin</h1>  
+<h3> Click the image below to check out an interactive Nextstrain build for Wisconsin sequences only <h3>
 <p><img src="nextstrain_wi_only_2020-04-14.png" alt="" width="1100" usemap="#image-map" /> <map name="image-map"> 
 <area title="WI NextStrain build" shape="rect" coords="9,3563,4801,4" href="http://35.226.31.45/ncov/2020-04-14?branchLabel=aa&amp;c=clade_membership" alt="WI NextStrain build" target="" /> </map></p>
 <hr />

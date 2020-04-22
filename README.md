@@ -14,7 +14,7 @@ We are sequencing via a number of methods, but moving forward we will primarily 
 <div class="lk-markdown-container">
 <h1>SARS-CoV-2 Wisconsin-only Phylogenetic Tree</h1>  
 <h3> Click the link below to check out an interactive Nextstrain build for Wisconsin sequences only <h3>
-<p><img src="nextstrain_wi_only_2020-04-14.png" alt="" width="900" usemap="#image-map" /> <map name="image-map"> 
+<p><img src="nextstrain_screenshot.png" alt="" width="900" usemap="#image-map" /> <map name="image-map"> 
 <area title="WI NextStrain build" shape="rect" coords="9,3563,4801,4" href="http://35.226.31.45/ncov/2020-04-14?branchLabel=aa&amp;c=clade_membership" alt="WI NextStrain build" target="" /> </map></p>
 <hr />
 <h3>Overview of Wisconsin SARS-CoV-2 sequencing</h3>

@@ -53,7 +53,7 @@ Below is a phylogenetic tree of viruses from Milwaukee only (n=94). This tree hi
 
 ### Global tree
 These viruses have been plotted on the global SARS-CoV-2 tree on Nextstrain, and we were able to visualize where these sequences cluster on a global scale. The “unassigned” clade, representing the largest transmission chain in Milwaukee, pictured below, is closely related to a virus detected in California and others from Asia -- China, Taiwan, and Korea. Notably, the tree shows that the last time the Milwaukee viruses collectively shared a common ancestor with sequences from anywhere else was in late February. This all suggests that there was an initial introduction, deriving perhaps from California or Asia, that took root in Milwaukee and has led to the community transmission that we are now seeing. However, since the predicted common ancestor is much farther back in time than the average serial interval, it is likely that the virus(es) that led to this local transmission cluster have not been directly sampled.
-![Nextstrain_MKE](MKE_global.png)
+![Nextstrain_MKE](figures/MKE_global.png)
 
 ### Monophyletic Wisconsin Clusters
 On the following page we have analyzed the phylogenetic tree to identify likely cases of transmission within Wisconsin. To do this, we identify Wisconsin viruses that share common ancestors with each other before they share ancestors with non-Wisconsin viruses. Node color corresponds to clade and each tip is labeled with the virus as well as the Wisconsin location. There are many fewer Milwaukee County clusters than Dane County clusters. This is again consistent with relatively few introductions of SARS-CoV-2 into Greater Milwaukee followed by sustained community spread.
